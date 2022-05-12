@@ -45,7 +45,7 @@ docker-compose down
 
 - 查看elastic 的所有索引数据
 
-![in to index manguage](imgs/in to index manguage.png)
+![in_to_index manauage](imgs/in_to_index manauage.png)
 
 - 给对应的索引建立Data View
 
@@ -54,20 +54,20 @@ docker-compose down
 - 建立一个discover
   - discover 存储位置[Management - Kibana - Save objects]
 
-![cut pie](imgs/create a discover.png)
+![cut pie](imgs/create_a_discover.png)
 
 - 数据准备完成，使用Visualize分析[Analytic - Visualize Library- create visualization - Aggregation based - Pie - 选择一个数据源（之前创建的discover和data view 都可以)]
 - 创建一个饼图
 
-![add field](imgs/cut pie.png)
+![cut_pie](imgs/cut_pie.png)
 
 - 创建一个dashboard
 
-![create dashboard](imgs/create dashboard.png)
+![create_dashboard](imgs/create_dashboard.png)
 
 - 数据合并展示
 
-![show good data](imgs/show good data.png)
+![show_good_data](imgs/show_good_data.png)
 
 - 修改 Kibana - environment - kibana.defaultAppId 可以改变之后登录kibana默认打开页面,需要重启容器
 
