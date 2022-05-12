@@ -1,0 +1,5 @@
+.idea
+code_segment
+*.pyc
+.DS_Store
+
